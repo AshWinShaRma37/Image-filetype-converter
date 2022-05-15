@@ -27,7 +27,7 @@ def withdraw():
 def converter():
          Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
          folder_selected = fd.askdirectory()
-         print(folder_selected)
+         #print(folder_selected)
          im = Image.open(filename).convert("RGB")
          f = ff.get("1.0", "end-1c")
          final = folder_selected + "/"+ f
