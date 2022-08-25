@@ -1,1 +1,1 @@
-# Image-file-converter
+# Image-filetype-converter
